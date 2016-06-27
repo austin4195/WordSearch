@@ -35,7 +35,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7F918BB71C721C1F0064E744 /* My App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F918BB71C721C1F0064E744 /* WordSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F918BBB1C721C1F0064E744 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7F918BBD1C721C1F0064E744 /* PAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAAppDelegate.h; sourceTree = "<group>"; };
 		7F918BBE1C721C1F0064E744 /* PAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PAAppDelegate.m; sourceTree = "<group>"; };
@@ -77,7 +77,7 @@
 		7F918BB81C721C1F0064E744 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7F918BB71C721C1F0064E744 /* My App.app */,
+				7F918BB71C721C1F0064E744 /* WordSearch.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -129,7 +129,7 @@
 			);
 			name = "My App";
 			productName = PythonistaAppTemplate;
-			productReference = 7F918BB71C721C1F0064E744 /* My App.app */;
+			productReference = 7F918BB71C721C1F0064E744 /* WordSearch.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -323,7 +323,7 @@
 					"$(PROJECT_DIR)/PythonistaAppTemplate",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.austincompany.wordsearch;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = WordSearch;
 			};
 			name = Debug;
 		};
@@ -344,7 +344,7 @@
 					"$(PROJECT_DIR)/PythonistaAppTemplate",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.austincompany.wordsearch;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = WordSearch;
 			};
 			name = Release;
 		};
